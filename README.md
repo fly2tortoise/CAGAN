@@ -26,7 +26,7 @@ you need to create "fid_stat" directory and download the statistical files of re
 </code></pre>
 
 
-# unfinished and to be continued
+# unfinished and to be continued\ 代码和教程还在更新中
 
 # 中文版运行教程 
 ## 1. 环境配置:
