@@ -52,10 +52,10 @@ you need to create "fid_stat" directory and download the statistical files of re
 # Acknowledgement
 Some of the codes are built by:
 
-1.[MMD-AdversarialNAS](https://ieeexplore.ieee.org/document/10446488)
+1. [MMD-AdversarialNAS](https://ieeexplore.ieee.org/document/10446488)
 
-2.[EAGAN](https://github.com/marsggbo/EAGAN)
+2. [EAGAN](https://github.com/marsggbo/EAGAN)
 
-3.[AlphaGAN](https://github.com/yuesongtian/AlphaGAN)
+3. [AlphaGAN](https://github.com/yuesongtian/AlphaGAN)
 
 Thanks them for their great works!
