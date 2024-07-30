@@ -28,13 +28,34 @@ you need to create "fid_stat" directory and download the statistical files of re
 
 # unfinished and to be continued
 
+# 中文版运行教程 
+## 1. 环境配置:
+### 1.1 基础要求
+CAGAN的搜索环境用的是最新的pytorch2.0以上的版本，配合TensorFlow2.13之后的版本。
+- PyTorch 2.1  
+- TensorFlow 2.15 
+- cuda 12.0  
+
+### 1.2 百度网盘环境
+考虑到同时安装配置torch和TensorFlow有一定难度，我们在百度网盘准备了已经配置好的安装包，直接解压即可。
+
+### 1.3 代码补全
+按照随后流程补齐代码。
+
+
+## 2. 准备fid的统计数据文件
+you need to create "fid_stat" directory and download the statistical files of real images.
+<pre><code>mkdir fid_stat
+</code></pre>
 
 
 # Acknowledgement
 Some of the codes are built by:
 
-1.[EAGAN](https://github.com/marsggbo/EAGAN)
+1.[MMD-AdversarialNAS](https://ieeexplore.ieee.org/document/10446488)
 
-2.[AlphaGAN](https://github.com/yuesongtian/AlphaGAN)
+2.[EAGAN](https://github.com/marsggbo/EAGAN)
+
+3.[AlphaGAN](https://github.com/yuesongtian/AlphaGAN)
 
 Thanks them for their great works!
