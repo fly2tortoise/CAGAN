@@ -58,12 +58,18 @@ conda activate torch
 在CAGAN中，我们用CIFAR-10和STL-10数据集用来评价。默认数据集存放在 ./datasets/cifar10 and ./datasets/stl10.
 读者可以自行下载，或者由data代码自动下载。 
 
-## 1.4. 准备fid_stat和tmp的文件夹
+### 1.4. 准备fid_stat和tmp的文件夹
 需要从EAGAN中下载相关数据。https://github.com/marsggbo/EAGAN
 <pre><code>mkdir fid_stat
 mkdir tmp
 </code></pre>
 
+## 2. 架构搜索
+### 2.1 约束架构搜索设计生成对抗网络
+
+### 2.2 充分训练搜索后的GANs
+
+### 2.3 使用MMD-GAN的损失函数训练搜索后的GANs
 
 # Acknowledgement
 Some of the codes are built by:
