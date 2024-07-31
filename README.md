@@ -58,9 +58,10 @@ conda activate torch
 在CAGAN中，我们用CIFAR-10和STL-10数据集用来评价。默认数据集存放在 ./datasets/cifar10 and ./datasets/stl10.
 读者可以自行下载，或者由data代码自动下载。 
 
-## 2. 准备fid的统计数据文件
-you need to create "fid_stat" directory and download the statistical files of real images.
+## 1.4. 准备fid_stat和tmp的文件夹
+需要从EAGAN（https://github.com/marsggbo/EAGAN）中下载相关数据。
 <pre><code>mkdir fid_stat
+mkdir tmp
 </code></pre>
 
 
