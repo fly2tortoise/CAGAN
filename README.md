@@ -71,7 +71,7 @@ mkdir tmp
 
 ### 2.2 使用Hing-loss的损失函数充分训练搜索后的GANs
 <pre><code>bash train_arch_cifar10.sh
-train_arch_stl10.sh
+bash train_arch_stl10.sh
 </code></pre>
 
 ### 2.3 使用MMD-GAN的损失函数充分训练搜索后的GANs
