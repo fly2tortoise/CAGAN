@@ -59,7 +59,7 @@ conda activate torch
 读者可以自行下载，或者由data代码自动下载。 
 
 ## 1.4. 准备fid_stat和tmp的文件夹
-需要从EAGAN（https://github.com/marsggbo/EAGAN）中下载相关数据。
+需要从EAGAN中下载相关数据。https://github.com/marsggbo/EAGAN
 <pre><code>mkdir fid_stat
 mkdir tmp
 </code></pre>
