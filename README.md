@@ -10,8 +10,8 @@ Recently, a number of Neural Architecture Search (NAS) methods have been propose
 The environment of CAGAN is more complex, training and searching are torch-based, but part of the evaluation needs to call the api of TensorFlow 2. For better reading, we provide English tutorials and 中文 tutorials.
 ## 1. Environment requirements:
 The search environment is consistent with AlphaGAN，to run this code, you need:  
-- PyTorch 2.1  
-- TensorFlow 2.15 
+- PyTorch 2.0
+- TensorFlow 2.12
 - cuda 12.0  
 
 Other requirements are in environment.yaml 
@@ -29,12 +29,13 @@ you need to create "fid_stat" directory and download the statistical files of re
 # unfinished and to be continued\ 代码和教程还在更新中
 
 # 中文版运行教程 
+同时配置torch和TensorFlow有一定难度。
 ## 1. 环境配置:
 ### 1.1 基础要求
 CAGAN的搜索环境用的是最新的pytorch2.0以上的版本，配合TensorFlow2.13之后的版本。
-- PyTorch 2.1  
-- TensorFlow 2.15 
-- cuda 12.0  
+- PyTorch 2.0
+- TensorFlow 2.12
+- cuda 12.0   
 
 ### 1.2 百度网盘环境
 考虑到同时安装配置torch和TensorFlow有一定难度，我们在百度网盘准备了已经配置好的安装包，直接解压即可。
