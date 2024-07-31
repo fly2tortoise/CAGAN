@@ -32,17 +32,31 @@ you need to create "fid_stat" directory and download the statistical files of re
 同时配置torch和TensorFlow有一定难度。
 ## 1. 环境配置:
 ### 1.1 基础要求
-CAGAN的搜索环境用的是最新的pytorch2.0以上的版本，配合TensorFlow2.13之后的版本。
-- PyTorch 2.0
-- TensorFlow 2.12
-- cuda 12.0   
+CAGAN的搜索环境用的是最新的pytorch2.0以上的版本，配合TensorFlow2.12以上的版本。
+- python=3.11
+- pytorch=2.0.1
+- tensorflow=2.12.0
+- tensorflow-gan=2.1.0
 
 ### 1.2 百度网盘环境
-考虑到同时安装配置torch和TensorFlow有一定难度，我们在百度网盘准备了已经配置好的安装包，直接解压即可。
+考虑到同时安装配置torch和TensorFlow有一定难度，我们在百度网盘准备了已经配置好的安装包。
+链接: https://pan.baidu.com/s/1I_3zXugfGJAg6l5PEdsV_w 提取码: 83gs 
+下载完毕后，直接解压到'/home/user/anaconda3/envs/'之下即可，文件目录如下所示。
+<pre><code>
+cd /home/yangyeming/anaconda3/envs
+tar -xvf torch.tar
+</code></pre>
+![image](https://github.com/user-attachments/assets/c85ea01b-ac3b-4b81-8fea-a8e990af247b)
 
-### 1.3 代码补全
-按照随后流程补齐代码。
+随后，激活相关环境。
+<pre><code>
+cd CAGAN
+conda activate torch 
+</code></pre>
 
+### 1.3 数据集准备(Cifar-10 and STL-10)
+在CAGAN中，我们用CIFAR-10和STL-10数据集用来评价。默认数据集存放在 ./datasets/cifar10 and ./datasets/stl10.
+读者可以自行下载，或者由data代码自动下载。 
 
 ## 2. 准备fid的统计数据文件
 you need to create "fid_stat" directory and download the statistical files of real images.
