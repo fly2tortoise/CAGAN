@@ -65,11 +65,18 @@ mkdir tmp
 </code></pre>
 
 ## 2. 架构搜索
-### 2.1 约束架构搜索设计生成对抗网络
+### 2.1 约束架构搜索设计GANs
+<pre><code>bash train_search_gen.sh
+</code></pre>
 
-### 2.2 充分训练搜索后的GANs
+### 2.2 使用Hing-loss的损失函数充分训练搜索后的GANs
+<pre><code>bash train_arch_cifar10.sh
+train_arch_stl10.sh
+</code></pre>
 
-### 2.3 使用MMD-GAN的损失函数训练搜索后的GANs
+### 2.3 使用MMD-GAN的损失函数充分训练搜索后的GANs
+<pre><code> 
+</code></pre>
 
 # Acknowledgement
 Some of the codes are built by:
