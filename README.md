@@ -58,7 +58,7 @@ We used the training environment provided by MMD-AdversarialNAS and found that t
 bash train_arch_stl10.sh
 </code></pre>
 
-# If you have any questions, please email me. I will respond as soon as I have time. Thank you for your attention.
+## If you have any questions, please email me. I will respond as soon as I have time. Thank you for your attention.
 # unfinished and to be continued
 
 
@@ -118,7 +118,7 @@ bash train_arch_stl10.sh
 bash train_arch_stl10.sh
 </code></pre>
 
-# 如果你有问题，请直接发邮件给我，我有时间都会回复，感谢关注。
+## 如果你有问题，请直接发邮件给我，我有时间都会回复，感谢关注。
 
 # 代码和教程还在更新中
 
