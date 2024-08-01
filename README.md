@@ -12,9 +12,10 @@ The environment of CAGAN is more complex, training and searching are torch-based
 ## 1. Environment requirements:
 ### 1.1 Basic Requirements
 CAGAN's search environment uses the latest version of PyTorch 2.0 and above, along with TensorFlow 2.12 and above.
-- PyTorch 2.0
-- TensorFlow 2.12
-- cuda 12.0  
+- python=3.11
+- pytorch=2.0.1
+- tensorflow=2.12.0
+- tensorflow-gan=2.1.0
 
 ### 1.2 Baidu Cloud Environment
 Considering the difficulty of simultaneously installing and configuring Torch and TensorFlow, we have prepared pre-configured installation packages on Baidu Cloud.
