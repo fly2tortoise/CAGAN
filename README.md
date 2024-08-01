@@ -8,25 +8,49 @@ Recently, a number of Neural Architecture Search (NAS) methods have been propose
 
 # How ot set up CAGAN.  
 The environment of CAGAN is more complex, training and searching are torch-based, but part of the evaluation needs to call the api of TensorFlow 2. For better reading, we provide English tutorials and 中文 tutorials.
+
 ## 1. Environment requirements:
-The search environment is consistent with AlphaGAN，to run this code, you need:  
+### 1.1 Basic Requirements
+CAGAN's search environment uses the latest version of PyTorch 2.0 and above, along with TensorFlow 2.12 and above.
 - PyTorch 2.0
 - TensorFlow 2.12
 - cuda 12.0  
 
-Other requirements are in environment.yaml 
+### 1.2 Baidu Cloud Environment
+Considering the difficulty of simultaneously installing and configuring Torch and TensorFlow, we have prepared pre-configured installation packages on Baidu Cloud.
 
-<!-- install code  -->
-<pre><code>conda env create -f environment.yaml
+Link: https://pan.baidu.com/s/1I_3zXugfGJAg6l5PEdsV_w
+Access Code: 83gs
+
+After downloading, simply extract it to '/home/user/anaconda3/envs/'. The file directory is as follows.
+<pre><code>
+cd /home/yangyeming/anaconda3/envs
+tar -xvf torch.tar
+</code></pre>
+![image](https://github.com/user-attachments/assets/c85ea01b-ac3b-4b81-8fea-a8e990af247b)
+
+Then, activate the relevant environment.
+<pre><code>
+cd CAGAN
+conda activate torch 
 </code></pre>
 
-## 2.prepare fid statistic file
-you need to create "fid_stat" directory and download the statistical files of real images.
+### 1.3 Dataset Preparation (CIFAR-10 and STL-10)
+In CAGAN, we use the CIFAR-10 and STL-10 datasets for evaluation. The default datasets are stored in ./datasets/cifar10 and ./datasets/stl10.
+Readers can download them manually or use the data code to download them automatically.
+
+### 1.4 Preparing the fid_stat and tmp Folders
+You need to download the relevant data from EAGAN. https://github.com/marsggbo/EAGAN
 <pre><code>mkdir fid_stat
+mkdir tmp
+</code></pre>
+<pre><code>mkdir fid_stat
+mkdir tmp
 </code></pre>
 
+# unfinished and to be continued
 
-# unfinished and to be continued\ 代码和教程还在更新中
+# 代码和教程还在更新中
 
 # 中文版运行教程 
 同时配置torch和TensorFlow有一定难度。
@@ -63,11 +87,14 @@ conda activate torch
 <pre><code>mkdir fid_stat
 mkdir tmp
 </code></pre>
+<pre><code>mkdir fid_stat
+mkdir tmp
+</code></pre>
 
 ## 2. 架构搜索
 ### 2.1 约束架构搜索设计GANs
 <pre><code>bash train_search_gen.sh
-</code></pre>
+</code></pre> 
 
 ### 2.2 使用Hing-loss的损失函数充分训练搜索后的GANs
 <pre><code>bash train_arch_cifar10.sh
