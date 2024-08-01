@@ -53,7 +53,7 @@ bash train_arch_stl10.sh
 </code></pre>
 ### 2.3 Fully Train the Searched GANs Using the MMD-GAN Loss Function
 We used the training environment provided by MMD-AdversarialNAS and found that the networks trained with the MMD-loss performed well. In this step, you only need to replace the training architecture of MMD-AdversarialNAS with the one found by CAGAN.
-<pre><code> bash train_arch_cifar10.sh
+<pre><code>bash train_arch_cifar10.sh
 bash train_arch_stl10.sh
 </code></pre>
 
