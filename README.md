@@ -23,15 +23,13 @@ Link: https://pan.baidu.com/s/1I_3zXugfGJAg6l5PEdsV_w
 Access Code: 83gs
 
 After downloading, simply extract it to '/home/user/anaconda3/envs/'. The file directory is as follows.
-<pre><code>
-cd /home/yangyeming/anaconda3/envs
+<pre><code>cd /home/yangyeming/anaconda3/envs
 tar -xvf torch.tar
 </code></pre>
 ![image](https://github.com/user-attachments/assets/c85ea01b-ac3b-4b81-8fea-a8e990af247b)
 
 Then, activate the relevant environment.
-<pre><code>
-cd CAGAN
+<pre><code>cd CAGAN
 conda activate torch 
 </code></pre>
 
