@@ -42,13 +42,24 @@ You need to download the relevant data from EAGAN. https://github.com/marsggbo/E
 <pre><code>mkdir fid_stat
 mkdir tmp
 </code></pre>
-<pre><code>mkdir fid_stat
-mkdir tmp
+
+## 2. Architecture Search
+### 2.1 Constraint Architecture Search to Design GANs
+<pre><code>bash train_search_gen.sh
+</code></pre> 
+### 2.2 Fully Train the Searched GANs Using the Hinge-loss Function
+<pre><code>bash train_arch_cifar10.sh
+bash train_arch_stl10.sh
+</code></pre>
+### 2.3 Fully Train the Searched GANs Using the MMD-GAN Loss Function
+We used the training environment provided by MMD-AdversarialNAS and found that the networks trained with the MMD-loss performed well. In this step, you only need to replace the training architecture of MMD-AdversarialNAS with the one found by CAGAN.
+<pre><code> bash train_arch_cifar10.sh
+bash train_arch_stl10.sh
 </code></pre>
 
 # unfinished and to be continued
 
-# 代码和教程还在更新中
+
 
 # 中文版运行教程 
 同时配置torch和TensorFlow有一定难度。
@@ -100,8 +111,12 @@ bash train_arch_stl10.sh
 </code></pre>
 
 ### 2.3 使用MMD-GAN的损失函数充分训练搜索后的GANs
-<pre><code> 
+我们使用了MMD-AdversarialNAS给出的训练环境，发现经过MMD-loss训练后的网络，效果良好。这一步只需要将MMD-AdversarialNAS的训练部分的架构更换为CAGAN搜索到的即可。
+<pre><code> bash train_arch_cifar10.sh
+bash train_arch_stl10.sh
 </code></pre>
+
+# 代码和教程还在更新中
 
 # Acknowledgement
 Some of the codes are built by:
