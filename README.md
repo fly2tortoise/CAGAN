@@ -114,7 +114,7 @@ bash train_arch_stl10.sh
 
 ### 2.3 使用MMD-GAN的损失函数充分训练搜索后的GANs
 我们使用了MMD-AdversarialNAS给出的训练环境，发现经过MMD-loss训练后的网络，效果良好。这一步只需要将MMD-AdversarialNAS的训练部分的架构更换为CAGAN搜索到的即可。
-<pre><code> bash train_arch_cifar10.sh
+<pre><code>bash train_arch_cifar10.sh
 bash train_arch_stl10.sh
 </code></pre>
 
@@ -125,10 +125,12 @@ bash train_arch_stl10.sh
 # Acknowledgement
 Some of the codes are built by:
 
-1. [MMD-AdversarialNAS](https://ieeexplore.ieee.org/document/10446488)
+1. [24 ICASSP: MMD-AdversarialNAS](https://ieeexplore.ieee.org/document/10446488)
 
-2. [EAGAN](https://github.com/marsggbo/EAGAN)
+2. [23 TEVC: EWSGAN](https://github.com)
 
-3. [AlphaGAN](https://github.com/yuesongtian/AlphaGAN)
+3. [22 ECCV: EAGAN](https://github.com/marsggbo/EAGAN)
+
+4. [21 TPAMI: AlphaGAN](https://github.com/yuesongtian/AlphaGAN)
 
 Thanks them for their great works!
