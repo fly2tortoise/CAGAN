@@ -136,22 +136,21 @@ Some of the codes are built by:
 Thanks them for their great works!
 
 
-</code></pre>
-@article{yang2024cagan,
+## 📚 Citation
 
-  title={CAGAN: Constrained neural architecture search for GANs},
-  
+If you find this work useful, please consider citing:
+
+<details>
+<summary>📄 BibTeX</summary>
+
+```bibtex
+@article{yang2024cagan,
+  title={CAGAN: Constrained Neural Architecture Search for GANs},
   author={Yang, Yeming and Zhang, Xinzhi and Zhu, Qingling and Chen, Weineng and Wong, Ka-Chun and Lin, Qiuzhen},
-  
   journal={Knowledge-Based Systems},
-  
   volume={302},
-  
   pages={112277},
-  
   year={2024},
-  
-  publisher={Elsevier}
+  doi={10.1016/j.knosys.2024.112277}
 }
-</code></pre>
 
