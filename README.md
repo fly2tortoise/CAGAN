@@ -120,7 +120,7 @@ bash train_arch_stl10.sh
 
 ## 如果你有困惑，欢迎发邮件给我。我有时间都会回复，可以一起讨论研究，感谢关注。
 
-# 代码和教程还在更新中
+
 
 # Acknowledgement
 Some of the codes are built by:
