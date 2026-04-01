@@ -140,8 +140,6 @@ Thanks them for their great works!
 
 If you find this work useful, please consider citing:
 
-<details>
-<summary>📄 BibTeX</summary>
 
 ```bibtex
 @article{yang2024cagan,
