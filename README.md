@@ -134,3 +134,17 @@ Some of the codes are built by:
 4. [21 TPAMI: AlphaGAN](https://github.com/yuesongtian/AlphaGAN)
 
 Thanks them for their great works!
+
+
+</code></pre>
+@article{yang2024cagan,
+  title={CAGAN: Constrained neural architecture search for GANs},
+  author={Yang, Yeming and Zhang, Xinzhi and Zhu, Qingling and Chen, Weineng and Wong, Ka-Chun and Lin, Qiuzhen},
+  journal={Knowledge-Based Systems},
+  volume={302},
+  pages={112277},
+  year={2024},
+  publisher={Elsevier}
+}
+</code></pre>
+
